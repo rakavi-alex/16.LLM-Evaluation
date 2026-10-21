@@ -1,0 +1,61 @@
+User Query,Teacher Response,GeneratedAnswer,Latency,InputTokens,OutputTokens,TotalTokens,InputCost,OutputCost,TotalCost
+What is AI?,"AI (Artificial Intelligence) is the ability of computers to perform tasks that normally require human intelligence, such as learning, reasoning, recognizing patterns, and making decisions.","AI (Artificial Intelligence) is technology that enables computers to perform tasks that usually require human intelligence.  
+It can learn from data, recognize patterns, understand language, and make decisions.  
+Examples include voice assistants, recommendation systems, and self-driving cars.",5.464270700002089,49,54,103,9.800000000000001e-06,6.479999999999999e-05,7.46e-05
+How does AI differ from traditional programming?,Traditional programs follow fixed rules written by humans. AI systems can learn patterns from data and use those patterns to make predictions or decisions.,"Traditional programming follows explicit rules written by humans: **input + rules = output**.  
+AI learns patterns from examples and uses them to make predictions or decisions.  
+So, traditional programs are rule-based, while AI can improve or adapt with more data.",2.318284000000858,53,55,108,1.06e-05,6.6e-05,7.66e-05
+What is Machine Learning?,Machine Learning is a branch of AI where computers learn patterns from data and use those patterns to make predictions or decisions without being explicitly programmed for every case.,"Machine Learning is a way for computers to learn from data and improve their performance without being explicitly programmed for every task.  
+It finds patterns in examples and uses them to make predictions or decisions.  
+For example, it can learn to recognize spam emails or recommend movies you may like.",1.7409084999999322,50,60,110,1e-05,7.2e-05,8.2e-05
+What is Deep Learning?,Deep Learning is a type of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large amounts of data.,"Deep learning is a type of artificial intelligence that teaches computers to learn from large amounts of data.  
+It uses layered structures called **neural networks**, inspired by the human brain, to recognize patterns.  
+For example, it helps computers identify faces, understand speech, and translate languages.",1.736262499998702,50,61,111,1e-05,7.319999999999999e-05,8.319999999999999e-05
+"What is the difference between AI, ML, and Deep Learning?",AI is the broad field of making machines intelligent. ML is a way to achieve AI by learning from data. Deep Learning is a type of ML that uses multi-layer neural networks.,"- **AI (Artificial Intelligence):** The broad field of making computers perform tasks that usually require human intelligence.  
+- **ML (Machine Learning):** A part of AI where computers learn patterns from data instead of being explicitly programmed.  
+- **Deep Learning:** A type of ML that uses layered neural networks to learn complex patterns, such as recognizing faces or understanding speech.",1.9378681000016513,58,79,137,1.16e-05,9.479999999999999e-05,0.00010639999999999998
+What is training data?,Training data is the data used to teach a Machine Learning model. The model studies patterns in this data so it can make predictions on new data.,"Training data is the collection of examples used to teach an AI system.  
+It can include text, images, audio, or other information.  
+The AI studies patterns in this data so it can make predictions or answer questions.",1.8028943999997864,50,49,99,1e-05,5.879999999999999e-05,6.879999999999999e-05
+What is a Machine Learning model?,A Machine Learning model is a mathematical system that learns patterns from data and uses those learned patterns to produce predictions or decisions.,"A machine learning model is a computer program that learns patterns from examples or data.  
+It uses what it has learned to make predictions or decisions about new information.  
+For example, it can learn from past emails to identify whether a new email is spam.",1.7803926999986288,52,55,107,1.04e-05,6.6e-05,7.64e-05
+What is supervised learning?,"Supervised learning trains a model using examples that already have known answers, such as customer information paired with whether the customer left the company.","Supervised learning is a type of machine learning where a model learns from examples that include the correct answers.  
+It studies the relationship between inputs and outputs, then uses it to make predictions on new data.  
+For example, learning from labeled pictures to identify whether a photo shows a cat or a dog.",2.1504146000006585,50,65,115,1e-05,7.799999999999999e-05,8.799999999999998e-05
+What is unsupervised learning?,"Unsupervised learning works with data that does not have predefined answers. The model tries to discover patterns, groups, or structures in the data.","Unsupervised learning is a type of machine learning where the computer learns from data without labeled answers.  
+It finds hidden patterns, groups, or relationships in the data on its own.  
+For example, it might group customers with similar shopping habits.",1.6449410999994143,52,54,106,1.04e-05,6.479999999999999e-05,7.519999999999998e-05
+What is reinforcement learning?,Reinforcement learning teaches an agent through rewards and penalties. The agent learns which actions produce better results over time.,"Reinforcement learning is a type of machine learning where an agent learns by trying actions in an environment.  
+It receives rewards for good actions and penalties for poor ones.  
+Over time, it learns which actions produce the best results.",1.6813918999978341,50,51,101,1e-05,6.12e-05,7.12e-05
+What is an LLM?,"An LLM, or Large Language Model, is an AI model trained on large amounts of text to understand and generate human-like language.","An **LLM (Large Language Model)** is an AI system trained on huge amounts of text to understand and generate human-like language.  
+It learns patterns in words, so it can answer questions, write, summarize, translate, and more.  
+It doesn’t “think” like a person—it predicts the most likely helpful response based on its training.",1.7371172999992268,51,75,126,1.02e-05,8.999999999999999e-05,0.0001002
+What is Generative AI?,"Generative AI is AI that can create new content such as text, images, audio, video, or code based on patterns learned during training.","Generative AI is technology that creates new content—such as text, images, music, or videos—based on patterns learned from existing data.  
+For example, it can write an email, create a picture from a description, or summarize a document.  
+It does not simply copy; it generates new outputs based on your instructions.",2.0004367000001366,51,71,122,1.02e-05,8.52e-05,9.54e-05
+What is a prompt?,"A prompt is the instruction or input given to an AI model to tell it what you want it to do, such as explain a concept, write code, or summarize text.","A prompt is an instruction or question given to an AI to tell it what you want.  
+For example: “Write a short story about a cat.”  
+Clear, detailed prompts usually produce better answers.",2.045755899998767,50,45,95,1e-05,5.4000000000000005e-05,6.400000000000001e-05
+What is Prompt Engineering?,Prompt Engineering is the practice of designing clear and effective instructions so an AI model produces more useful and reliable responses.,"Prompt engineering is the practice of writing clear, specific instructions for an AI to get the desired response.  
+It involves choosing the right words, details, context, and format.  
+For example, instead of saying “Explain science,” say “Explain photosynthesis in simple terms for a 10-year-old.”",1.9450133999998798,50,65,115,1e-05,7.799999999999999e-05,8.799999999999998e-05
+What is RAG?,RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from external data sources and provides that information to an LLM before generating an answer.,"RAG (Retrieval-Augmented Generation) is a technique where an AI first searches for relevant information from documents or databases.  
+It then uses that information to generate a more accurate and up-to-date answer.  
+This helps reduce made-up answers and allows AI to use private or specialized data.",1.954920400003175,50,63,113,1e-05,7.56e-05,8.56e-05
+Why is RAG useful?,"RAG is useful when an AI application needs to answer questions using specific or changing information, such as company documents, policies, or knowledge bases.","RAG (Retrieval-Augmented Generation) lets an AI search relevant information before answering.  
+It makes responses more accurate, up to date, and grounded in trusted documents.  
+This is especially useful for company data, manuals, and other specialized knowledge.",2.241593999999168,51,89,140,1.02e-05,0.0001068,0.000117
+What is a vector database?,A vector database stores numerical representations called embeddings and allows applications to search for information based on semantic similarity.,"A vector database stores information as numbers (called **vectors**) that capture the meaning of text, images, or other data.  
+It can quickly find items that are **similar in meaning**, even when they use different words.  
+For example, it can find related documents when you search “how to fix a car” and show results about “vehicle repair.”",1.954608799998823,51,76,127,1.02e-05,9.120000000000001e-05,0.00010140000000000001
+What are embeddings?,"Embeddings are numerical representations of text, images, or other data. Similar meanings tend to have similar vector representations, which makes semantic search possible.","Embeddings are numerical representations of things like words, images, or documents.  
+They capture meaning, so similar items have similar numbers and are placed close together mathematically.  
+For example, “cat” and “kitten” would have more similar embeddings than “cat” and “car.”",1.7341849000004004,49,63,112,9.800000000000001e-06,7.56e-05,8.539999999999999e-05
+What is an AI Agent?,"An AI Agent is a system that can understand a goal, decide what actions are needed, use tools when necessary, and work through multiple steps to complete a task.","An **AI agent** is a computer program that can understand a goal, make decisions, and take actions to achieve it.  
+It can observe information, reason about what to do, and use tools or interact with people.  
+For example, a virtual assistant that schedules meetings or answers questions is an AI agent.",1.837940899997193,51,67,118,1.02e-05,8.04e-05,9.06e-05
+How can AI be used in education?,"AI can support education by explaining concepts, generating practice questions, adapting lessons to student levels, providing feedback, and helping students learn at their own pace.","AI can personalize learning by adapting lessons, practice, and explanations to each student’s needs and pace.  
+It can help teachers create materials, grade assignments, identify learning difficulties, and save time on routine tasks.  
+AI should support—not replace—teachers, while protecting student privacy and encouraging critical thinking.",1.739957099998719,53,64,117,1.06e-05,7.68e-05,8.74e-05

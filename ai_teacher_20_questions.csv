@@ -1,0 +1,21 @@
+﻿User Query,Teacher Response
+What is AI?,"AI (Artificial Intelligence) is the ability of computers to perform tasks that normally require human intelligence, such as learning, reasoning, recognizing patterns, and making decisions."
+How does AI differ from traditional programming?,Traditional programs follow fixed rules written by humans. AI systems can learn patterns from data and use those patterns to make predictions or decisions.
+What is Machine Learning?,Machine Learning is a branch of AI where computers learn patterns from data and use those patterns to make predictions or decisions without being explicitly programmed for every case.
+What is Deep Learning?,Deep Learning is a type of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large amounts of data.
+"What is the difference between AI, ML, and Deep Learning?",AI is the broad field of making machines intelligent. ML is a way to achieve AI by learning from data. Deep Learning is a type of ML that uses multi-layer neural networks.
+What is training data?,Training data is the data used to teach a Machine Learning model. The model studies patterns in this data so it can make predictions on new data.
+What is a Machine Learning model?,A Machine Learning model is a mathematical system that learns patterns from data and uses those learned patterns to produce predictions or decisions.
+What is supervised learning?,"Supervised learning trains a model using examples that already have known answers, such as customer information paired with whether the customer left the company."
+What is unsupervised learning?,"Unsupervised learning works with data that does not have predefined answers. The model tries to discover patterns, groups, or structures in the data."
+What is reinforcement learning?,Reinforcement learning teaches an agent through rewards and penalties. The agent learns which actions produce better results over time.
+What is an LLM?,"An LLM, or Large Language Model, is an AI model trained on large amounts of text to understand and generate human-like language."
+What is Generative AI?,"Generative AI is AI that can create new content such as text, images, audio, video, or code based on patterns learned during training."
+What is a prompt?,"A prompt is the instruction or input given to an AI model to tell it what you want it to do, such as explain a concept, write code, or summarize text."
+What is Prompt Engineering?,Prompt Engineering is the practice of designing clear and effective instructions so an AI model produces more useful and reliable responses.
+What is RAG?,RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from external data sources and provides that information to an LLM before generating an answer.
+Why is RAG useful?,"RAG is useful when an AI application needs to answer questions using specific or changing information, such as company documents, policies, or knowledge bases."
+What is a vector database?,A vector database stores numerical representations called embeddings and allows applications to search for information based on semantic similarity.
+What are embeddings?,"Embeddings are numerical representations of text, images, or other data. Similar meanings tend to have similar vector representations, which makes semantic search possible."
+What is an AI Agent?,"An AI Agent is a system that can understand a goal, decide what actions are needed, use tools when necessary, and work through multiple steps to complete a task."
+How can AI be used in education?,"AI can support education by explaining concepts, generating practice questions, adapting lessons to student levels, providing feedback, and helping students learn at their own pace."
